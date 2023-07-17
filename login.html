@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="html" href="form.html">
+</head>
+<body>
+	<div class="login-container">
+		<form class="login-form" action="login.php" method="post">
+			<h2>Login</h2>
+			<label for="username">Email Address</label>
+			<input type="username" id="username" name="username" required>
+
+			<label for="pwd">Password</label>
+			<input type="pwd" id="pwd" name="pwd" required>
+
+			<a href="form.html"target="_blank">
+			<button type="submit">Log in</button>
+
+			<!-- <a href="form.html" target="_blank" onclick="document.querySelector('.login-form').submit();">Fill Form</a> -->
+
+			</a>
+		</form>
+	</div>
+</body>
+</html>
